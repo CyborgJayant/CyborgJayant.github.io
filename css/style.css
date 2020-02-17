@@ -1,0 +1,172 @@
+/*------COLOR:     #724ff8 ----*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*------------------CLEAR----------------------*/
+.clearfix {zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility:hidden;
+    
+}
+/*-------------------HEADER--------------------*/
+header {
+    height: 100vh;
+    background-image:linear-gradient(rgba(119, 120, 121, 0.7),rgba(168, 165, 165, 0.7)),url(img/cover.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1,h2{
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-size: 210%;
+    line-height: 310%;
+    position: absolute;
+
+}
+header h1{
+    color: #45eed2;
+    font-weight: 700;
+    margin: 10px 39%;
+}
+/*------------------------------------------------*/
+
+
+.logos-link img{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 19.8% 7.5%;
+}
+
+.section-logo img{
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin: 0;
+    
+}
+
+
+/*---------------MAN - U--------------------*/
+
+.section-manU h2 {
+    color: #d9dcde;
+    font-size: 210%;
+    font-weight: 700;
+    margin: 10px 37%;
+    
+}
+
+.section-manU{
+    height: 100vh;
+    background-image:linear-gradient(rgba(235, 16, 16, 0.6),rgba(93, 93, 93, 0.6)),url(data/Man_U/Manchester%20United%20Stadium.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/*------------------------------------------*/
+
+
+
+/*---------------REAL MADRID----------------*/
+.section-realM h2 {
+    color: #1e5fdd;
+    font-size: 210%;
+    font-weight: 700;
+    line-height: 200%;
+    margin: 8px 42%;
+    
+}
+.section-realM {
+    height: 100vh;
+    background-image:linear-gradient(rgba(65, 144, 23, 0.71),rgba(65, 144, 23, 0.44)),url(data/Real_Madrid/Real%20Madrid%20Stadium.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+/*------------------------------------------*/
+
+
+
+/*---------------BAYERN---------------------*/
+.section-bayern h2 {
+    color: #b23428;
+    font-size: 210%;
+    font-weight: 700;
+    margin: 10px 45%;
+    
+}
+.section-bayern {
+    height: 100vh;
+    background-image:linear-gradient(rgba(173, 166, 166, 0.6),rgba(173, 166, 166, 0.6)),url(data/Bayern/bayern-stadium.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+}
+/*------------------------------------------*/
+
+
+
+
+.attacker{
+    margin-left: 400px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.attacker img{
+    width: 150px;
+    height: 300px;
+    margin: 100px 40px 10px 50px;
+}
+
+.midfielder {
+    margin-left: 400px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.midfielder img{
+    width: 150px;
+    height: 300px;
+    margin: 50px 40px 10px 50px;
+}
+
+.defender {
+    margin-left: 320px;
+    height: 180px;
+    overflow: hidden; 
+}
+
+.defender img{
+    width: 150px;
+    height: 300px;
+    margin: 50px 40px 10px 50px;
+}
+
+.goalkeeper {
+    margin-left: 680px;
+    height:160px;
+    overflow: hidden;
+}
+
+
+.goalkeeper img{
+    width: 150px;
+    height: 300px;
+    margin: 20px 40px 10px 50px;
+}
